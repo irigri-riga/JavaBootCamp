@@ -1,18 +1,11 @@
-/**
- * 
- */
 package sef.module3.activity;
-
-/**
- * @author 
- *
- */
+ 
 public class VariableAssignmentActivity {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
+	public static void main(String arg[]){
+		String iri = "no way!";
+		iri = "xyz";
+		System.out.println(iri);
 		
 		// 1- Declare a variable of type int and assign it default value.
 		// 2- Update the value 
