@@ -3,9 +3,9 @@ package sef.module3.activity;
 public class VariableAssignmentActivity {
 
 	public static void main(String arg[]){
-		String iri = "no way!";
-		iri = "xyz";
-		System.out.println(iri);
+		String value = "xyz";
+		value = "no way!";
+		System.out.println(value);
 		
 		// 1- Declare a variable of type int and assign it default value.
 		// 2- Update the value 

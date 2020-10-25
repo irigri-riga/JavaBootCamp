@@ -1,14 +1,15 @@
 package sef.module6.activity;
 
-public class Shape {
+public abstract class Shape {
 
 	public String color;
 	
-	public Shape() {
+	public Shape() {	//default constructor
+		System.out.println("The Shape is ready!");
 	}
 	
-	// Complete the code and Add abstract method calculateArea() and calculatePerimeter() with return type as double
-
+	// Complete the code and Add abstract method calculateArea() and calculatePerimeter() 
+														//with return type as double
 	
 	public void setColor(String c) {
 		color = c;
@@ -17,4 +18,8 @@ public class Shape {
 		return color;
 	}
 	
+	public abstract void calculateArea(double area);		//2 abstraction methods
+	public abstract void calculatePerimeter(double per);
+	
+
 }

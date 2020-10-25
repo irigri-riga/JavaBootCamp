@@ -2,13 +2,14 @@ package sef.module4.sample;
 
 import java.util.Calendar;
 
-public class Person {
+public class Person { 	//no main method here!! go to the ClassInstanceSample
+						// you cannot actually RUN this code as usual
 
 	//Attributes
 	private String name;
 	
 	
-	//Behavior
+	//Behavior aka METHODs
 	public Person(String name){
 		this.name = name;
 	}

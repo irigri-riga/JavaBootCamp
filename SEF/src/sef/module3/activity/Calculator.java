@@ -11,12 +11,12 @@ public class Calculator {
 		
 	public static void main(String[] args) {
 		
-	int x = 10;
-	int y = 0;
+	int x = 0;
+	int y = 7;
 	
 	int[] nums = {1, 2, 3, 4};
 	
-	System.out.println("Addition - " + add(x,y));
+	System.out.println("Addition - " + add(x,y));  //add will return sum
 	System.out.println("Subtraction - " + subtract(x,y));
 	System.out.println("Multiply - " + multiply(nums));
 	System.out.println("Divide - " + divide(x,y));

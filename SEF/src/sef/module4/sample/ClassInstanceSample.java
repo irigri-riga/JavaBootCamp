@@ -5,10 +5,10 @@ import java.util.Calendar;
 
 public class ClassInstanceSample {
 
-	public static void main(String arg[]){
-		
+	public static void main(String arg[]){ 	//main methods starts
+	
 		//Object instance creation using 'new' and passing parameters to constructors
-		Person him = new Person("John Doe");
+		Person him = new Person("John Doe"); //new object him
 		Person her = new Person("Jane Doe");
 		
 		//Access an object's member method to invoke a behavior
